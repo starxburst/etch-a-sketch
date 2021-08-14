@@ -1,0 +1,52 @@
+html {
+    background-color: rgb(36, 34, 34);
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons-area {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(58, 56, 56, 0.26);
+    border-radius: 10px;
+    margin-right: 5%;
+}
+
+.buttons {
+    margin: 15px 50px 0px 50px;
+    padding: 15px 40px 15px 40px;
+    font-size: large;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+}
+
+.buttons:hover {
+    transform: scale(1.05);
+}
+
+.color-picker {
+    flex-direction: row;
+    justify-items: center;
+    margin: 30px 0px 0px 0px;
+    color: pink;
+}
+
+.container {
+    border: 5px solid pink;
+    display: grid;
+    width: 500px;
+    height: 500px;
+  }
