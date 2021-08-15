@@ -57,7 +57,7 @@ function resetGrid(){
     gridCreate();
 }
 
-penColorPicker.addEventListener('input', setPenColor);
+penColorPicker.addEventListener('change', setPenColor);
 backgroundColorPicker.addEventListener('change', setBackgroundColor);
 
 function setPenColor(e) {
