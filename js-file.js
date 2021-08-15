@@ -5,7 +5,7 @@ const penColorPicker = document.querySelector('#pen-color');
 const backgroundColorPicker = document.querySelector('#background-color');
 
 let gridSize = 16;
-let mousedown = false;
+let mouseDown = false;
 let penColor = 'white';
 let backgroundColor = 'black';
 
@@ -30,16 +30,16 @@ function gridCreate() {
 }
 
 function setMouseDown(e) {
-    mousedown = true;
+    mouseDown = true;
     e.target.style.backgroundColor = penColor;
 }
 
 function setMouseUp() {
-    mousedown = false;
+    mouseDown = false;
 }
 
 function changeColor(e) {
-    if(mousedown == true) {
+    if(mouseDown == true) {
         console.log(e.type);
         e.target.style.backgroundColor = penColor;
     }
